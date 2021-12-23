@@ -16,6 +16,8 @@ configurations {
 
 repositories {
 	mavenCentral()
+	//Repo of News-API.
+	maven { url 'https://jitpack.io' }
 }
 
 dependencies {

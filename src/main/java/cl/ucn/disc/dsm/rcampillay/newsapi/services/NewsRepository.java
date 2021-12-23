@@ -9,7 +9,7 @@
  * Prohibida su Distribución
  */
 
-package cl.ucn.disc.dsm.rcampillay.newsapi;
+package cl.ucn.disc.dsm.rcampillay.newsapi.services;
 
 
 import cl.ucn.disc.dsm.rcampillay.newsapi.model.News;

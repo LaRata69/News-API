@@ -28,7 +28,7 @@ package externals* #ffcccc {
     }
 }
 
-    package cl.ucn.disc.dsm.newsapi {
+    package cl.ucn.disc.dsm.rcampillay.newsapi {
     
     package model #ccffcc {
         
@@ -79,7 +79,7 @@ package externals* #ffcccc {
         +main(): void
         #initializingDatabase(): InitializingBean
     }
-    TheNewsApiApplication ..|> NewsRepository
+    TheNewsApiApplication ..> NewsRepository
 
 
 }
@@ -94,4 +94,4 @@ package externals* #ffcccc {
 
 
 ***
-(c) 2021 Desarrollo de Soluciones Móviles
+(c) 2021 Desarrollo de Soluciones Móviles - Ronald Campillay Pizarro.

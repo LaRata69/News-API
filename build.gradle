@@ -30,6 +30,10 @@ dependencies {
 	implementation 'net.openhft:zero-allocation-hashing:0.15'
 // https://mvnrepository.com/artifact/com.jakewharton.threetenabp/threetenabp
 	implementation 'com.jakewharton.threetenabp:threetenabp:1.3.1'
+	// https://mvnrepository.com/artifact/com.zsoltfabok/sqlite-dialect
+	implementation 'com.zsoltfabok:sqlite-dialect:1.0'
+	// https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc
+	implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
 }
 
 test {

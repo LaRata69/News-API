@@ -6,15 +6,28 @@ import org.threeten.bp.ZonedDateTime;
 
 import lombok.Getter;
 
+import javax.persistence.*;
+
 /**
  * The  News Class.
  *
  * @author Ronald Campillay-Pizarro
  **/
+@Entity
 public final class News {
+
     /**
-     * The id
+     * Primary Key.
      */
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Getter
+    private Long key;
+
+    /**
+     * The id unique
+     */
+    //@Column(unique = true)
     @Getter
     private Long id;
 

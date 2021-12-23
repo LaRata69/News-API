@@ -17,6 +17,7 @@ configurations {
 repositories {
 	mavenCentral()
 	//Repo of News-API.
+	//https://github.com/KwabenBerko/News-API-Java
 	maven { url 'https://jitpack.io' }
 }
 
@@ -44,6 +45,9 @@ dependencies {
 
 // https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc
 	implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
+
+	//NEWS API JAVA CLIENT: https://newsapi.org/docs/client-libraries/java
+	implementation 'com.github.KwabenBerko:News-API-Java:1.0.0'
 }
 
 test {

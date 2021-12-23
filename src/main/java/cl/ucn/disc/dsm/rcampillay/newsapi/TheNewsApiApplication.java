@@ -9,7 +9,7 @@
  * Prohibida su Distribución
  */
 
-package cl.ucn.disc.dsm.rcampillay.newsapi.services;
+package cl.ucn.disc.dsm.rcampillay.newsapi;
 
 import cl.ucn.disc.dsm.rcampillay.newsapi.model.News;
 import org.springframework.beans.factory.InitializingBean;

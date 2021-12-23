@@ -58,7 +58,7 @@ package externals* #ffcccc {
         News *--> "1" ZonedDateTime : -publishedAt
     }
     
-    package services #ccccff {
+    
         interface NewsRepository <<interface>> {
     }
     NewsRepository ..> News : <<use>>
